@@ -1,3 +1,4 @@
+// This is a dumb component
 import React, { Component } from 'react'
 import ContactList from '../containers/contact_list'
 import ContactDetail from '../containers/contact-detail'

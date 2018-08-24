@@ -9,7 +9,7 @@ class ContactDetail extends Component {
         }
         return (
             <div>
-                <h3>Contact Details for: {this.props.contact.name}</h3>
+                <div>Contact Details for: <h3>{this.props.contact.name}</h3></div>
                 <div>Phone: {this.props.contact.phone}</div>
             </div>
         );
