@@ -1,7 +1,8 @@
 // This is a dumb component
 import React, { Component } from 'react'
-import ContactList from '../containers/contact_list'
-import ContactDetail from '../containers/contact-detail'
+// import Chart from './chart';
+import ContactList from '../containers/contact-list'
+// import InputField from '../containers/input-field'
 
 class App extends Component{
     render(){
@@ -16,14 +17,17 @@ class App extends Component{
         <div className="row">
             <div className="col-sm-2"></div>
             <div className="col-sm-4">
+                {/* <InputField/> */}
+            </div>
+           
+        </div>    
+        <div className="row">
+            
+            <div className="col-sm-10">
+                {/* <Chart /> */}
                 <ContactList />
             </div>
-            <div className="col-sm-4">
-                <ContactDetail />
-            </div>
         </div>
-                
-
         </div>
         
         )
